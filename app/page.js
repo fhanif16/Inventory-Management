@@ -129,7 +129,7 @@ import { collection,
         alignItems={'center'}
         gap={2}
         sx={{
-          backgroundImage: `url('/pic.avif')`,
+          backgroundImage: `url('/veg.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -211,7 +211,7 @@ import { collection,
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </Stack>
-        <Box border={'5px solid #333'} marginTop={2} bgcolor={'#ADD8E6'}>
+        <Box border={'5px solid #ADD8E6'} marginTop={2} bgcolor={'#ADD8E6'}>
           <Box
             width="1000px"
             height="150px"
